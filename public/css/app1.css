@@ -1,0 +1,121 @@
+.image {
+    background-color: black;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+position: fixed;
+background-image: linear-gradient(to right, #a25b5b, #692e4c);
+padding-top: 1em;
+width: 100%;
+top: 0;
+height: 7em;
+z-index: 90920192;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6em;
+}
+.container
+{
+    max-width:600px;
+    margin: 0 auto;
+}
+
+.headertop{
+    font-weight:bold;
+    color:white;
+}
+
+#sidebar{
+    position: fixed;
+    width: 195px;
+    height: 50%;
+    background: white;
+    color:black;
+    right:-200px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+    right:0px;
+}
+
+#sidebar ul li{
+    color:black;
+    list-style: none;
+    padding:15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#sidebar ul li:hover{
+    background-color:#a25b5b;
+}
+#sidebar a{
+    text-decoration: none;
+}
+
+#sidebar .toggle-btn span{
+    display:block;
+    width: 20px;
+    height: 3px;
+    background: white;
+    margin:5px 0px;
+}
+
+/*
+ * Left Sidebar
+ */
+ .sidebar {
+    position: fixed;top: 8em;
+ }
+ .sidebar-sticky {
+    position: fixed;top: 8em;
+ }
+
+  
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+    }
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    /* margin-right: 2px; */
+    color: #333;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #333;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: #333;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+
+  /*
+   * Content
+   */
+  
+  [role="main"] {
+    top: 8em; /* Space for fixed navbar */
+  }
+
+
+  
