@@ -1,10 +1,10 @@
 # inventory
 The aim of this project is to digitalise part of inventory management of our university.
 this includes:-
-    log-in/sign-up module
-    customised screen according to role (faculty,Head Of Department,Vice Chancellor,store manager) 
-    indent form (to request products)
-    approval of request by HOD
+    Log-in/sign-up module.
+    Customized screen according to role (faculty,Head Of Department,Vice Chancellor,store manager).
+    Indent form (to request products).
+    Approval of request by HOD.
     
 To run this application, you need composer and laravel installed.
 run php artisan serve command to start laravel service.
